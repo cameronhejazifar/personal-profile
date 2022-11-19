@@ -79,7 +79,7 @@ header {
 
 @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
   header {
-    background-color: var(--color-background-25);
+    background-color: var(--color-background-75);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
   }
@@ -102,7 +102,7 @@ header {
 }
 
 .logo:focus:not(:hover):not(:active) {
-  border: 1px dotted var(--color-secondary);
+  border: 1px dashed var(--color-secondary);
 }
 
 nav {
@@ -128,7 +128,7 @@ nav {
 }
 
 .nav-hamburger:focus:not(:hover):not(:active) {
-  border: 1px dotted var(--color-secondary);
+  border: 1px dashed var(--color-secondary);
 }
 
 @media (max-width: 768px) {

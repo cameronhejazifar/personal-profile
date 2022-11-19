@@ -78,7 +78,7 @@ export default {
 }
 
 .social-icon:focus:not(:active):not(:hover) {
-  outline: 1px dotted var(--color-primary);
+  outline: 1px dashed var(--color-primary);
 }
 
 .social-icon svg {

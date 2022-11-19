@@ -48,7 +48,7 @@ a:hover {
 }
 
 a:focus:not(:active):not(:hover) {
-  outline: 1px dotted var(--color-primary);
+  outline: 1px dashed var(--color-primary);
 }
 
 @media (max-width: 768px) {

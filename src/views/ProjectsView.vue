@@ -1,6 +1,13 @@
+<script setup>
+import AnimateOnScroll from '@/components/AnimateOnScroll.vue';
+</script>
+
 <template>
+  <!-- TODO: implement page -->
   <div id="projects" class="fitted-container">
-    <div>projects</div>
+    <AnimateOnScroll invisible-class="animate-on-scroll-from-right">
+      <div>projects</div>
+    </AnimateOnScroll>
   </div>
 </template>
 

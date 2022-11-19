@@ -1,7 +1,13 @@
+<script setup>
+import AnimateOnScroll from '@/components/AnimateOnScroll.vue';
+</script>
+
 <template>
   <!-- TODO: implement page -->
   <div id="contact" class="fitted-container">
-    <div>contact me</div>
+    <AnimateOnScroll>
+      <div>contact me</div>
+    </AnimateOnScroll>
   </div>
 </template>
 

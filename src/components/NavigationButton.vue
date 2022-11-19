@@ -37,8 +37,7 @@ export default {
 }
 
 .nav-button:focus:not(:hover):not(:active) {
-  border: 1px dotted var(--color-primary);
-  text-decoration: underline;
+  border: 1px dashed var(--color-primary);
 }
 
 @media (max-width: 768px) {
