@@ -1,4 +1,5 @@
 <template>
+  <!-- TODO: implement page -->
   <div id="contact" class="fitted-container">
     <div>contact me</div>
   </div>
@@ -11,4 +12,6 @@ export default {
 </script>
 
 <style scoped>
+#contact {
+}
 </style>

@@ -1,4 +1,5 @@
 <template>
+  <!-- TODO: implement page -->
   <div id="about" class="fitted-container">
     <div>about me</div>
   </div>

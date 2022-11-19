@@ -35,7 +35,6 @@ export default {
 .nav-link-index {
   color: var(--color-secondary);
   transition: color 250ms ease-in-out;
-  font-family: var(--font-mono);
   font-size: 14px;
 }
 

@@ -2,13 +2,14 @@
 import NavigationLink from '@/components/NavigationLink.vue'
 import NavigationButton from '@/components/NavigationButton.vue'
 import HamburgerIcon from '@/components/HamburgerIcon.vue';
+import Logo from '@/components/images/Logo.vue';
 </script>
 
 <template>
   <header :class="{'expanded': isNavExpanded}">
     <!-- Logo -->
     <a href="/" class="logo">
-      <img alt="Logo" src="@/assets/logo.svg" width="48" height="48"/>
+      <Logo/>
     </a>
 
     <!-- Hamburger Menu (Mobile) -->
@@ -24,7 +25,8 @@ import HamburgerIcon from '@/components/HamburgerIcon.vue';
       <NavigationLink :index="4" anchor="contact" title="Contact" @selected="setNavExpanded(false)"/>
 
       <!-- Resume -->
-      <NavigationButton href="/go-to-resume" title="Resume"/>
+      <NavigationButton href="https://drive.google.com/file/d/19DW3UlD9kUHTSFs7zt6JmfeLCTH6P6Vd/view?usp=share_link"
+                        title="Resume"/>
     </nav>
   </header>
 </template>
@@ -94,6 +96,11 @@ header {
   text-decoration: none;
 }
 
+.logo svg {
+  width: 48px;
+  height: 48px;
+}
+
 .logo:focus:not(:hover):not(:active) {
   border: 1px dotted var(--color-secondary);
 }
@@ -104,7 +111,7 @@ nav {
   align-items: center;
   justify-content: flex-end;
   flex-wrap: nowrap;
-  margin-right: 16px;
+  padding-right: 16px;
 }
 
 .nav-hamburger {
@@ -140,7 +147,7 @@ nav {
   }
 
   nav {
-    margin-left: 16px;
+    padding-left: 16px;
     flex-basis: 100%;
     align-items: stretch;
     justify-content: flex-start;

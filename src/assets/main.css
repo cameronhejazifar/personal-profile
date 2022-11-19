@@ -20,7 +20,7 @@ body {
     color: var(--color-text);
     background: var(--color-background);
     line-height: 1.6;
-    font-family: var(--font-sans);
+    font-family: var(--font-mono);
     font-size: 15px;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -71,7 +71,8 @@ body.nav-expanded {
 }
 
 .fitted-container {
-    max-width: 1280px;
+    display: block;
+    max-width: var(--dimension-max-screen-width);
     min-height: 100vh;
     margin: 0 auto;
     padding: 0;
