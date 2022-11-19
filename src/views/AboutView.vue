@@ -3,13 +3,16 @@ import AnimateOnScroll from '@/components/AnimateOnScroll.vue';
 import TagH2 from '@/components/TagH2.vue';
 import TagP from '@/components/TagP.vue';
 import TagBody from '@/components/TagBody.vue';
+import TypewriterText from '@/components/TypewriterText.vue';
 </script>
 
 <template>
   <div id="about" class="fitted-container">
     <AnimateOnScroll animation-class="animate-on-scroll-from-left">
       <TagBody class="about-text">
-        <TagH2 class="name">Cameron Hejazi-Far</TagH2>
+        <TagH2 class="name">
+          <TypewriterText>Cameron Hejazi-Far</TypewriterText>
+        </TagH2>
         <TagP class="description">
           <p class="occupation">Full-Stack Developer</p>
           <!-- TODO: replace placeholder "About Me" content here -->
@@ -39,6 +42,7 @@ export default {
 
 <style scoped>
 .fitted-container {
+  max-width: calc(var(--dimension-max-screen-width) * 0.75);
   min-height: 100vh;
   padding-top: var(--dimension-header-height) !important;
   display: flex;
@@ -48,7 +52,7 @@ export default {
 }
 
 .about-text {
-  margin: 40px;
+  margin: 40px 80px 40px 40px;
 }
 
 .name {
@@ -88,12 +92,29 @@ export default {
   z-index: -1;
 }
 
+.profile-picture:hover, .profile-picture:hover::after {
+  border-color: var(--color-primary);
+}
+
 @media (max-width: 768px) {
+  .name {
+    font-size: 2rem;
+  }
+
+  .occupation {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
   .fitted-container {
     flex-direction: column;
   }
 
   .about-text {
+    margin-right: 40px;
     margin-bottom: 120px;
   }
 }
