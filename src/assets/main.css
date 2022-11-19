@@ -1,0 +1,79 @@
+@import './base.css';
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: var(--color-background);
+    scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+body {
+    min-height: 100vh;
+    color: var(--color-text);
+    background: var(--color-background);
+    line-height: 1.6;
+    font-family: var(--font-sans);
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+    overflow-x: hidden;
+}
+
+/* Vertical Scrollbar width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Horizontal Scrollbar height */
+::-webkit-scrollbar:horizontal {
+    height: 6px;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece,
+::-webkit-resizer,
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-button {
+    background: var(--color-background);
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--color-primary-75);
+    border-radius: 20px;
+    transition: all 250ms ease-in-out;
+}
+
+body.nav-expanded {
+    overflow: hidden;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: var(--color-text);
+    background: var(--color-primary-alt);
+}
+
+::selection {
+    color: var(--color-text);
+    background: var(--color-primary-alt);
+}
+
+.fitted-container {
+    max-width: 1280px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    font-weight: normal;
+}

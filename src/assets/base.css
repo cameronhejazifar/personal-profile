@@ -1,0 +1,49 @@
+:root {
+    /* Colors */
+    --color-background: #212630;
+    --color-background-15: rgba(33, 38, 48, 0.15);
+    --color-background-25: rgba(33, 38, 48, 0.25);
+    --color-background-50: rgba(33, 38, 48, 0.50);
+    --color-background-75: rgba(33, 38, 48, 0.75);
+    --color-background-90: rgba(33, 38, 48, 0.90);
+    --color-shadow: rgba(0, 0, 0, 0.25);
+    --color-text: #e4f2f7;
+    --color-text-15: rgba(228, 242, 247, 0.15);
+    --color-text-25: rgba(228, 242, 247, 0.25);
+    --color-text-50: rgba(228, 242, 247, 0.50);
+    --color-text-75: rgba(228, 242, 247, 0.75);
+    --color-primary: #f583ca;
+    --color-primary-15: rgba(245, 131, 202, 0.15);
+    --color-primary-25: rgba(245, 131, 202, 0.25);
+    --color-primary-50: rgba(245, 131, 202, 0.50);
+    --color-primary-75: rgba(245, 131, 202, 0.75);
+    --color-primary-alt: #cd3a80;
+    --color-primary-alt-15: rgba(205, 48, 128, 0.15);
+    --color-primary-alt-25: rgba(205, 48, 128, 0.25);
+    --color-primary-alt-50: rgba(205, 48, 128, 0.50);
+    --color-primary-alt-75: rgba(205, 48, 128, 0.75);
+    --color-secondary: #5ab6f5;
+    --color-secondary-15: rgba(90, 182, 245, 0.15);
+    --color-secondary-25: rgba(90, 182, 245, 0.25);
+    --color-secondary-50: rgba(90, 182, 245, 0.50);
+    --color-secondary-75: rgba(90, 182, 245, 0.75);
+    --color-secondary-alt: #3a6dcf;
+    --color-secondary-alt-15: rgba(58, 109, 207, 0.15);
+    --color-secondary-alt-25: rgba(58, 109, 207, 0.25);
+    --color-secondary-alt-50: rgba(58, 109, 207, 0.50);
+    --color-secondary-alt-75: rgba(58, 109, 207, 0.75);
+
+    /* Dimensions */
+    --dimension-header-height: 96px;
+
+    /* Fonts */
+    --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+    --font-mono: "Roboto Mono";
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    font-weight: normal;
+}
