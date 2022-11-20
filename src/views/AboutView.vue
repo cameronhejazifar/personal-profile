@@ -37,8 +37,7 @@ import TypewriterText from '@/components/TypewriterText.vue'
 
 <script>
 export default {
-  name: 'AboutView',
-
+  name: 'AboutView'
 }
 </script>
 

@@ -31,7 +31,7 @@ export default {
   background: var(--color-text-50);
 }
 
-a {
+.footer-email a {
   display: block;
   color: var(--color-text-50);
   text-decoration: none;
@@ -42,12 +42,12 @@ a {
   transition: color 250ms ease-in-out, transform 250ms ease-in-out;
 }
 
-a:hover {
+.footer-email a:hover {
   color: var(--color-primary);
   transform: scale(1.05);
 }
 
-a:focus:not(:active):not(:hover) {
+.footer-email a:focus:not(:active):not(:hover) {
   outline: 1px dashed var(--color-primary);
 }
 
@@ -56,7 +56,7 @@ a:focus:not(:active):not(:hover) {
     display: none;
   }
 
-  a {
+  .footer-email a {
     margin-top: 16px;
   }
 }
