@@ -1,6 +1,6 @@
 <script setup>
-import FooterEmail from '@/components/FooterEmail.vue';
-import FooterSocialIcons from '@/components/FooterSocialIcons.vue';
+import FooterEmail from '@/components/FooterEmail.vue'
+import FooterSocialIcons from '@/components/FooterSocialIcons.vue'
 </script>
 
 <template>

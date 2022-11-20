@@ -70,6 +70,10 @@ body.nav-expanded {
     background: var(--color-primary-alt);
 }
 
+p {
+    margin-bottom: 1rem;
+}
+
 .fitted-container {
     display: block;
     max-width: var(--dimension-max-screen-width);
@@ -78,6 +82,9 @@ body.nav-expanded {
     font-weight: normal;
 }
 
-p {
-    margin-bottom: 1rem;
+.anchor {
+    display: block;
+    width: 1px;
+    height: 1px;
+    margin-bottom: var(--dimension-header-height);
 }

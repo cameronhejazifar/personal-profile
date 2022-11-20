@@ -1,18 +1,18 @@
 <script setup>
-import AnimateOnScroll from '@/components/AnimateOnScroll.vue';
-import TagH2 from '@/components/TagH2.vue';
-import TagP from '@/components/TagP.vue';
-import TagBody from '@/components/TagBody.vue';
-import TypewriterText from '@/components/TypewriterText.vue';
+import AnimateOnScroll from '@/components/AnimateOnScroll.vue'
+import TagH1 from '@/components/TagH1.vue'
+import TagP from '@/components/TagP.vue'
+import TagBody from '@/components/TagBody.vue'
+import TypewriterText from '@/components/TypewriterText.vue'
 </script>
 
 <template>
   <div id="about" class="fitted-container">
     <AnimateOnScroll animation-class="animate-on-scroll-from-left">
       <TagBody class="about-text">
-        <TagH2 class="name">
+        <TagH1 class="name">
           <TypewriterText>Cameron Hejazi-Far</TypewriterText>
-        </TagH2>
+        </TagH1>
         <TagP class="description">
           <p class="occupation">Full-Stack Developer</p>
           <!-- TODO: replace placeholder "About Me" content here -->
@@ -28,7 +28,9 @@ import TypewriterText from '@/components/TypewriterText.vue';
       </TagBody>
     </AnimateOnScroll>
     <AnimateOnScroll animation-class="animate-on-scroll-from-right">
-      <div class="profile-picture"></div>
+      <div class="profile-picture-container">
+        <img class="profile-picture" src="@/assets/profile-picture.jpg" alt="Profile Picture"/>
+      </div>
     </AnimateOnScroll>
   </div>
 </template>
@@ -67,19 +69,22 @@ export default {
 .description {
 }
 
+.profile-picture-container {
+  margin-right: 40px;
+}
+
 .profile-picture {
   display: block;
   position: relative;
   width: 300px;
   height: 300px;
-  background: transparent url("@/assets/profile-picture.jpg") no-repeat 0 0;
-  background-size: contain;
+  object-fit: cover;
+  object-position: center;
   border-radius: 10px;
   border: 2px solid var(--color-secondary);
-  margin-right: 40px;
 }
 
-.profile-picture::after {
+.profile-picture-container::after {
   content: "";
   position: absolute;
   display: block;
@@ -92,7 +97,7 @@ export default {
   z-index: -1;
 }
 
-.profile-picture:hover, .profile-picture:hover::after {
+.profile-picture:hover, .profile-picture-container:hover::after {
   border-color: var(--color-primary);
 }
 
@@ -111,6 +116,17 @@ export default {
 
   .fitted-container {
     flex-direction: column;
+  }
+
+  .profile-picture-container {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+
+  .profile-picture {
+    max-width: 100%;
+    width: 600px;
+    height: auto;
   }
 
   .about-text {

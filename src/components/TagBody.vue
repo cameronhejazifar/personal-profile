@@ -1,5 +1,5 @@
 <template>
-  <div class="tag-wrapper">
+  <div class="tag-container">
     <span class="tag-prefix">&lt;body&gt;</span>
     <div class="indented-content">
       <slot/>
@@ -36,13 +36,13 @@
   margin-left: 3rem;
 }
 
-.tag-wrapper {
+.tag-container {
   padding-top: 20px;
   padding-bottom: 20px;
   position: relative;
 }
 
-.tag-wrapper::before {
+.tag-container::before {
   content: '<html>';
   font-family: var(--font-mono);
   color: var(--color-text-25);
@@ -55,7 +55,7 @@
   user-select: none;
 }
 
-.tag-wrapper::after {
+.tag-container::after {
   content: '<html/>';
   font-family: var(--font-mono);
   color: var(--color-text-25);

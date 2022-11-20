@@ -1,5 +1,5 @@
 <script setup>
-import AnimateOnScroll from '@/components/AnimateOnScroll.vue';
+import AnimateOnScroll from '@/components/AnimateOnScroll.vue'
 </script>
 
 <template>

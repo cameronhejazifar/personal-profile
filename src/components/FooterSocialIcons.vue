@@ -1,9 +1,9 @@
 <script setup>
 import SocialIconFacebook from '@/components/images/SocialIconFacebook.vue'
-import SocialIconGithub from '@/components/images/SocialIconGithub.vue';
-import SocialIconLinkedIn from '@/components/images/SocialIconLinkedIn.vue';
-import SocialIconInstagram from '@/components/images/SocialIconInstagram.vue';
-import SocialIconLinkTree from '@/components/images/SocialIconLinkTree.vue';
+import SocialIconGithub from '@/components/images/SocialIconGithub.vue'
+import SocialIconLinkedIn from '@/components/images/SocialIconLinkedIn.vue'
+import SocialIconInstagram from '@/components/images/SocialIconInstagram.vue'
+import SocialIconLinkTree from '@/components/images/SocialIconLinkTree.vue'
 </script>
 
 <template>
@@ -70,6 +70,7 @@ export default {
   outline: none;
   border: none;
   transition: color 250ms ease-in-out, transform 250ms ease-in-out;
+  border-radius: 2px;
 }
 
 .social-icon:hover {

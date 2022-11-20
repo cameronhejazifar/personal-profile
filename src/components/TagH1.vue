@@ -1,20 +1,21 @@
 <template>
-  <h2><slot/></h2>
+  <h1><slot/></h1>
 </template>
 
 <style scoped>
-h2 {
+h1 {
   color: var(--color-text);
   font-weight: 400;
   position: relative;
   margin-top: 40px;
   margin-bottom: 40px;
-  font-size: 3rem;
+  padding-left: 1rem;
+  font-size: 2.5rem;
   line-height: 4rem;
 }
 
-h2::before {
-  content: '<h2>';
+h1::before {
+  content: '<h1>';
   font-family: var(--font-mono);
   color: var(--color-text-25);
   font-size: 1rem;
@@ -26,14 +27,14 @@ h2::before {
   user-select: none;
 }
 
-h2::after {
-  content: '<h2/>';
+h1::after {
+  content: '<h1/>';
   font-family: var(--font-mono);
   color: var(--color-text-25);
   font-size: 1rem;
   position: absolute;
   left: -1rem;
-  bottom: -2.75rem;
+  bottom: -2.25rem;
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;

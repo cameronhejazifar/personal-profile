@@ -1,8 +1,8 @@
 <script setup>
 import NavigationLink from '@/components/NavigationLink.vue'
 import NavigationButton from '@/components/NavigationButton.vue'
-import HamburgerIcon from '@/components/HamburgerIcon.vue';
-import Logo from '@/components/images/Logo.vue';
+import HamburgerIcon from '@/components/HamburgerIcon.vue'
+import Logo from '@/components/images/Logo.vue'
 </script>
 
 <template>
@@ -94,6 +94,7 @@ header {
   outline: none;
   border: none;
   text-decoration: none;
+  border-radius: 10px;
 }
 
 .logo svg {

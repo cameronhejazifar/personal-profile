@@ -25,11 +25,13 @@ export default {
   text-align: center;
   text-decoration: none;
   outline: none;
-  transition: color 250ms ease-in-out, background-color 250ms ease-in-out, border 250ms ease-in-out;
+  transition: color 250ms ease-in-out, background-color 250ms ease-in-out, border 250ms ease-in-out, padding 250ms ease-in-out;
 }
 
 .nav-button:hover {
   background-color: var(--color-primary-15);
+  border: 3px solid var(--color-primary);
+  padding: 6px 14px;
 }
 
 .nav-button:active {

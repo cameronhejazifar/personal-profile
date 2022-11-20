@@ -9,6 +9,7 @@ p {
   position: relative;
   margin-top: 0;
   padding-top: 30px;
+  padding-left: 1rem;
   margin-bottom: 20px;
   font-size: 1rem;
   line-height: 1.5rem;
