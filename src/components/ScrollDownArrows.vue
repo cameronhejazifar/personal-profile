@@ -53,11 +53,4 @@ export default {
     transform: rotate(45deg) translate(20px, 20px);
   }
 }
-
-@media (max-width: 768px) {
-  .scroll-arrows span {
-    border-bottom: 4px solid var(--color-secondary);
-    border-right: 4px solid var(--color-secondary);
-  }
-}
 </style>

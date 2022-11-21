@@ -2,6 +2,7 @@
 import AnimateOnScroll from '@/components/AnimateOnScroll.vue'
 import ProgrammingLanguagesGrid from '@/components/ProgrammingLanguagesGrid.vue'
 import AnchorHeader from '@/components/AnchorHeader.vue'
+import EmploymentHistoryCards from '@/components/EmploymentHistoryCards.vue'
 </script>
 
 
@@ -11,10 +12,11 @@ import AnchorHeader from '@/components/AnchorHeader.vue'
     <div id="experience" class="anchor"></div>
     <AnimateOnScroll>
       <div class="anchor-container">
-        <AnchorHeader :index="2" title="Experience"/>
+        <AnchorHeader :index="2" anchor="experience" title="Experience"/>
       </div>
       <ProgrammingLanguagesGrid/>
     </AnimateOnScroll>
+    <EmploymentHistoryCards/>
   </div>
 </template>
 

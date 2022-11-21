@@ -1,14 +1,15 @@
 <template>
-  <h3 class="anchor-header">
+  <a :href="'#' + anchor" class="anchor-header">
     <span class="anchor-header-index">{{ paddedIndex }}</span>
     {{ title }}
-  </h3>
+  </a>
 </template>
 
 <script>
 export default {
   name: 'AnchorHeader',
   props: {
+    anchor: {type: String, required: true},
     index: {type: Number, required: true},
     title: {type: String, required: true}
   },
@@ -30,7 +31,7 @@ export default {
   font-size: 24px;
   outline: none;
   transition: color 250ms ease-in-out;
-  cursor: default;
+  cursor: pointer;
 }
 
 .anchor-header-index {

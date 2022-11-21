@@ -50,6 +50,7 @@ export default {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-bottom: calc(var(--dimension-header-height) * -1);
 }
 
 .about-text {

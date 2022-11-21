@@ -49,7 +49,8 @@ import LanguageIconPHP from '@/components/images/LanguageIconPHP.vue'
       <span class="line"></span>
     </div>
     <div class="language-grid">
-      <a href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html" target="_blank" class="language language-objective-c">
+      <a href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html"
+         target="_blank" class="language language-objective-c">
         <LanguageIconObjectiveC class="icon"/>
         <span class="label">Objective-C</span>
       </a>
@@ -181,23 +182,23 @@ export default {
   }
 
   30% {
-    transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(0.75, 1.5, 1);
   }
 
   40% {
-    transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(1.25, 0.75, 1);
   }
 
   50% {
-    transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(0.85, 1.35, 1);
   }
 
   65% {
-    transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(1.05, .95, 1);
   }
 
   75% {
-    transform: scale3d(1.05, .95, 1);
+    transform: scale3d(.95, 1.2, 1);
   }
 
   to {

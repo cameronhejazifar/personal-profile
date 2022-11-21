@@ -49,7 +49,7 @@ export default {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  transition: opacity 250ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
 }
 
 .scroll-arrows-container.hidden {

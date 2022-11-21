@@ -48,10 +48,10 @@ footer {
 }
 
 .attribution a {
-  display: block;
+  display: inline-block;
   margin: 0 auto;
   font-size: 16px;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   text-decoration: none;
   outline: none;
   border: none;
@@ -61,7 +61,7 @@ footer {
 }
 
 .attribution a:hover {
-  color: var(--color-primary);
+  color: var(--color-primary-alt);
   transform: scale(1.05);
 }
 
