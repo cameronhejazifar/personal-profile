@@ -1,6 +1,7 @@
 <script setup>
 import AnimateOnScroll from '@/components/AnimateOnScroll.vue'
 import ExternalLinkIcon from '@/components/images/ExternalLinkIcon.vue'
+import TagP from '@/components/TagP.vue'
 </script>
 
 <template>
@@ -22,7 +23,9 @@ import ExternalLinkIcon from '@/components/images/ExternalLinkIcon.vue'
         <h4 :class="{'project-name': true, 'even': even, 'odd': !even}">{{ projectName }}</h4>
         <h6 :class="{'platform': true, 'even': even, 'odd': !even}">{{ platform }}</h6>
         <div :class="{'description': true, 'even': even, 'odd': !even}">
-          <slot/>
+          <TagP>
+            <slot/>
+          </TagP>
         </div>
         <div :class="{'links': true, 'even': even, 'odd': !even}" v-if="links.length > 0">
           <a v-for="link in links" :href="link.url" target="_blank">
@@ -141,7 +144,7 @@ export default {
   display: block;
   width: auto;
   height: auto;
-  padding: 10px;
+  padding: 10px 10px 20px 35px;
   color: var(--color-text-75);
   background: var(--color-background-90);
   border: 2px solid var(--color-secondary-15);
@@ -321,7 +324,7 @@ export default {
     border-radius: 0;
     box-shadow: none;
     margin: 15px 0;
-    padding: 0;
+    padding: 10px 10px 10px 20px;
     text-align: left;
   }
 

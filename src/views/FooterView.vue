@@ -43,7 +43,7 @@ footer {
 .attribution {
   display: block;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 140px 0 20px 0;
   text-align: center;
 }
 

@@ -5,7 +5,6 @@ import AnchorHeader from '@/components/AnchorHeader.vue'
 import EmploymentHistoryCards from '@/components/EmploymentHistoryCards.vue'
 </script>
 
-
 <template>
   <div class="fitted-container">
     <div id="experience" class="anchor"></div>

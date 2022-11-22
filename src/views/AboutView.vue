@@ -43,7 +43,7 @@ export default {
 
 <style scoped>
 .fitted-container {
-  max-width: calc(var(--dimension-max-screen-width) * 0.75);
+  /*max-width: calc(var(--dimension-max-screen-width) * 0.75);*/
   min-height: 100vh;
   padding-top: var(--dimension-header-height) !important;
   display: flex;
