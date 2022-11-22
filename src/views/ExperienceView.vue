@@ -9,9 +9,11 @@ import EmploymentHistoryCards from '@/components/EmploymentHistoryCards.vue'
 <template>
   <div class="fitted-container">
     <div id="experience" class="anchor"></div>
-    <div class="anchor-container">
-      <AnchorHeader :index="2" anchor="experience" title="Experience"/>
-    </div>
+    <AnimateOnScroll animation-class="animate-on-scroll-from-left">
+      <div class="anchor-container">
+        <AnchorHeader :index="2" anchor="experience" title="Experience"/>
+      </div>
+    </AnimateOnScroll>
     <EmploymentHistoryCards/>
     <AnimateOnScroll>
       <ProgrammingLanguagesGrid/>
@@ -32,7 +34,6 @@ export default {
 
 .anchor-container {
   display: block;
-  width: 810px;
   max-width: 90%;
   margin: 0 auto;
 }

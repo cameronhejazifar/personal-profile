@@ -142,7 +142,7 @@ export default {
   width: auto;
   height: auto;
   padding: 10px;
-  color: var(--color-text-50);
+  color: var(--color-text-75);
   background: var(--color-background-90);
   border: 2px solid var(--color-secondary-15);
   border-radius: 10px;
@@ -285,6 +285,10 @@ export default {
 }
 
 @media (max-width: 768px) {
+  .project {
+    margin: 64px auto 32px auto;
+  }
+
   .preview-container.even, .preview-container.odd {
     transform: none;
     width: 100%;
