@@ -9,7 +9,7 @@ import TagH6 from '@/components/TagH6.vue'
 
 <template>
   <div class="employment-history-container">
-    <AnimateOnScroll class="card" animationClass="animate-on-scroll-from-left" tabindex="0">
+    <AnimateOnScroll class="card" animationClass="animate-on-scroll-from-left">
       <CorpIconBalance class="corp-logo balance"/>
       <TagH6 class="card-subtitle">
         Co-Founder &amp; Head of Software Development
@@ -32,7 +32,7 @@ import TagH6 from '@/components/TagH6.vue'
         </p>
       </TagP>
     </AnimateOnScroll>
-    <AnimateOnScroll class="card" animationClass="animate-on-scroll-from-bottom" tabindex="0">
+    <AnimateOnScroll class="card" animationClass="animate-on-scroll-from-bottom">
       <CorpIconUHIN class="corp-logo uhin"/>
       <TagH6 class="card-subtitle">
         Principle Software Engineer
@@ -93,6 +93,7 @@ export default {
   justify-content: stretch;
   flex-wrap: nowrap;
   padding: 20px;
+  margin-top: 30px;
 }
 
 .employment-history-container .card {
@@ -100,8 +101,17 @@ export default {
   flex-basis: calc(33.33333% - 40px);
   flex-grow: 1;
   margin: 20px;
-  background: var(--color-secondary-15);
   border-radius: 15px;
+  background: transparent;
+  border: 3px solid var(--color-secondary-25);
+  cursor: default;
+  transition: background 250ms ease-in-out, box-shadow 250ms ease-in-out, border 250ms ease-in-out;
+}
+
+.employment-history-container .card:hover {
+  background: var(--color-secondary-15);
+  box-shadow: 0 0 15px var(--color-secondary);
+  border-color: var(--color-secondary);
 }
 
 .corp-logo {

@@ -17,7 +17,7 @@ export default {
     visibleClass: {
       type: String,
       required: false
-    },
+    }
   },
   data() {
     return {
@@ -28,22 +28,16 @@ export default {
   mounted() {
     this.observer = new IntersectionObserver(entries => {
       entries.forEach(entry => this.isVisible = entry.isIntersecting);
+    }, {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0
     });
     this.observer.observe(this.$refs.animateDiv);
   },
   unmounted() {
     if (this.$refs.animateDiv) {
       this.observer.unobserve(this.$refs.animateDiv);
-    }
-  },
-  methods: {
-    buildTransitionClass() {
-      return {
-        'from-bottom': this.transition === 'from-bottom',
-        'from-left': this.transition === 'from-left',
-        'from-top': this.transition === 'from-top',
-        'from-right': this.transition === 'from-right',
-      }
     }
   }
 }

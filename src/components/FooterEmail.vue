@@ -26,9 +26,9 @@ export default {
 .line {
   display: block;
   width: 10vw;
-  height: 1px;
+  height: 2px;
   margin-left: 10px;
-  background: var(--color-text-50);
+  background: var(--color-text-25);
 }
 
 .footer-email a {

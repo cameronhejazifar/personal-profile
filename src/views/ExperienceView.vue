@@ -7,16 +7,15 @@ import EmploymentHistoryCards from '@/components/EmploymentHistoryCards.vue'
 
 
 <template>
-  <!-- TODO: implement page -->
   <div class="fitted-container">
     <div id="experience" class="anchor"></div>
+    <div class="anchor-container">
+      <AnchorHeader :index="2" anchor="experience" title="Experience"/>
+    </div>
+    <EmploymentHistoryCards/>
     <AnimateOnScroll>
-      <div class="anchor-container">
-        <AnchorHeader :index="2" anchor="experience" title="Experience"/>
-      </div>
       <ProgrammingLanguagesGrid/>
     </AnimateOnScroll>
-    <EmploymentHistoryCards/>
   </div>
 </template>
 
@@ -30,6 +29,7 @@ export default {
 .fitted-container {
   padding-top: 128px;
 }
+
 .anchor-container {
   display: block;
   width: 810px;

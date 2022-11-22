@@ -111,7 +111,7 @@ export default {
   display: block;
   width: 810px;
   max-width: 90%;
-  margin: 48px auto;
+  margin: 128px auto 0 auto;
   background: var(--color-secondary-75);
   border-radius: 15px;
   padding: 5px;

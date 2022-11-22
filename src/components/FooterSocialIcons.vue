@@ -56,8 +56,8 @@ export default {
 .line {
   display: block;
   width: 10vw;
-  height: 1px;
-  background: var(--color-text-50);
+  height: 2px;
+  background: var(--color-text-25);
 }
 
 .social-icon {
