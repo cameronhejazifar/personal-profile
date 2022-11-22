@@ -15,7 +15,6 @@ import TypewriterText from '@/components/TypewriterText.vue'
         </TagH1>
         <TagP class="description">
           <p class="occupation">Full-Stack Developer</p>
-          <!-- TODO: replace placeholder "About Me" content here -->
           <p>
             Highly motivated lead software engineer with 10+ years of experience in full-stack
             development and all phases of the software development lifecycle.

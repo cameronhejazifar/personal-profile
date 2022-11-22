@@ -15,7 +15,6 @@ import TagH6 from '@/components/TagH6.vue'
         Co-Founder &amp; Head of Software Development
       </TagH6>
       <a href="https://balancemoney.com" target="_blank" class="corp-link">balancemoney.com</a>
-      <!-- TODO: replace placeholder content here -->
       <TagP class="card-content">
         <p>December, 2021 &mdash; Present</p>
         <p>
@@ -38,7 +37,6 @@ import TagH6 from '@/components/TagH6.vue'
         Principle Software Engineer
       </TagH6>
       <a href="https://uhin.org" target="_blank" class="corp-link">uhin.org</a>
-      <!-- TODO: replace placeholder content here -->
       <TagP class="card-content">
         <p>March, 2017 &mdash; December, 2021</p>
         <p>
@@ -61,7 +59,6 @@ import TagH6 from '@/components/TagH6.vue'
         Software Developer
       </TagH6>
       <a href="https://footprints-inc.com" target="_blank" class="corp-link">footprints-inc.com</a>
-      <!-- TODO: replace placeholder content here -->
       <TagP class="card-content">
         <p>June, 2012 - May, 2015</p>
         <p>

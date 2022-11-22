@@ -12,7 +12,6 @@ import AnchorHeader from '@/components/AnchorHeader.vue'
         <AnchorHeader :index="3" anchor="projects" title="Personal Projects"/>
       </div>
     </AnimateOnScroll>
-    <!-- TODO: replace placeholder content here -->
     <Project :even="false" image="/src/assets/screenshot-macros.png" project-name="Efficient Nutrition" platform="Web"
              :links="macrosLinks">
       <p>
@@ -49,7 +48,6 @@ import AnchorHeader from '@/components/AnchorHeader.vue'
         &bull; Back-end and website initially built with PHP. Re-written using the .NET framework with C#
       </p>
     </Project>
-    <!-- TODO: replace placeholder content here -->
     <Project :even="true" image="/src/assets/screenshot-pokedex.png" project-name="PokéDexter"
              platform="iOS &amp; Android" :links="pokeDexterLinks">
       <p>
