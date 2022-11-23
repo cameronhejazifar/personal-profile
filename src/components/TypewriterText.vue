@@ -43,4 +43,16 @@ export default {
     border-color: var(--color-secondary);
   }
 }
+
+@media (max-width: 768px) {
+  .typed-out {
+    overflow: visible;
+    padding-right: 0;
+    border-right: none;
+    white-space: normal;
+    animation: none;
+    width: 100%;
+  }
+}
+
 </style>
