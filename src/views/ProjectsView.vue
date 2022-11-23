@@ -12,8 +12,11 @@ import AnchorHeader from '@/components/AnchorHeader.vue'
         <AnchorHeader :index="3" anchor="projects" title="Personal Projects"/>
       </div>
     </AnimateOnScroll>
-    <Project :even="false" image="/src/assets/screenshot-macros.png" project-name="Efficient Nutrition" platform="Web"
+    <Project :even="false" project-name="Efficient Nutrition" platform="Web"
              :links="macrosLinks">
+      <template v-slot:image>
+        <img alt="Screenshot" src="@/assets/screenshot-macros.png" class="preview"/>
+      </template>
       <p>
         Keep track of your personal progress on becoming healthier. Learn more about your eating habits by logging
         your meals, keeping track of recipes, and planning your eating.
@@ -22,8 +25,11 @@ import AnchorHeader from '@/components/AnchorHeader.vue'
         &bull; Built using Laravel and Vue with TailwindCSS
       </p>
     </Project>
-    <Project :even="true" image="/src/assets/screenshot-xfitpr.png" project-name="XFit PR"
+    <Project :even="true" project-name="XFit PR"
              platform="iOS, Android, &amp; Web" :links="xFitPrLinks">
+      <template v-slot:image>
+        <img alt="Screenshot" src="@/assets/screenshot-xfitpr.png" class="preview"/>
+      </template>
       <p>
         An application built to log your gym workouts, track and chart your progress, and learn all of the movements
         and techniques used in everyday workouts.
@@ -35,8 +41,11 @@ import AnchorHeader from '@/components/AnchorHeader.vue'
         &bull; Application API and website built using PHP
       </p>
     </Project>
-    <Project :even="false" image="/src/assets/screenshot-sizetrader.png" project-name="Size Trader"
+    <Project :even="false" project-name="Size Trader"
              platform="iOS, Android, &amp; Web" :links="sizeTraderLinks">
+      <template v-slot:image>
+        <img alt="Screenshot" src="@/assets/screenshot-sizetrader.png" class="preview"/>
+      </template>
       <p>
         A social networking application where you can create and share wish lists with your friends and family, manage
         your sizes for clothing, shoes, etc., and keep track of your birthday and holiday shopping needs.
@@ -48,8 +57,11 @@ import AnchorHeader from '@/components/AnchorHeader.vue'
         &bull; Back-end and website initially built with PHP. Re-written using the .NET framework with C#
       </p>
     </Project>
-    <Project :even="true" image="/src/assets/screenshot-pokedex.png" project-name="PokéDexter"
+    <Project :even="true" project-name="PokéDexter"
              platform="iOS &amp; Android" :links="pokeDexterLinks">
+      <template v-slot:image>
+        <img alt="Screenshot" src="@/assets/screenshot-pokedex.png" class="preview"/>
+      </template>
       <p>
         A companion app to help you complete your Pokédex and build the strongest team for all generations of
         main-line Pokémon games. Includes all information for every Pokémon including movesets, IVs, encounter

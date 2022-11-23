@@ -14,7 +14,7 @@ import TagP from '@/components/TagP.vue'
           <span></span>
           <span></span>
         </div>
-        <img alt="Screenshot" :src="imageUrl()" class="preview"/>
+        <slot name="image"/>
       </div>
     </AnimateOnScroll>
     <AnimateOnScroll :animation-class="even ? 'animate-on-scroll-from-right' : 'animate-on-scroll-from-left'"
@@ -46,10 +46,6 @@ export default {
       type: Boolean,
       required: true
     },
-    image: {
-      type: String,
-      required: true
-    },
     projectName: {
       type: String,
       required: true
@@ -61,11 +57,6 @@ export default {
     links: {
       type: Array,
       default: []
-    }
-  },
-  methods: {
-    imageUrl() {
-      return new URL(this.image, import.meta.url);
     }
   }
 }
