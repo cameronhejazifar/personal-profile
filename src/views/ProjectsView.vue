@@ -111,6 +111,15 @@ export default {
   margin: 0 auto;
 }
 
+.preview {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 12px 60px -24px rgba(255, 255, 255, 0.3);
+  border: 1px solid var(--color-text-50);
+}
+
 .footnote {
   color: var(--color-text-50);
   font-size: 12px;

@@ -236,15 +236,6 @@ export default {
   transform: perspective(800px) rotateY(-25deg) scale(.8) rotateX(10deg);
 }
 
-.preview {
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-  object-fit: cover;
-  box-shadow: 0 12px 60px -24px rgba(255, 255, 255, 0.3);
-  border: 1px solid var(--color-text-50);
-}
-
 .preview-actions {
   position: absolute;
   display: flex;
