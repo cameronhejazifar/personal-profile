@@ -34,14 +34,14 @@ npm run build
 
 [color-hex.com](https://www.color-hex.com/color-palette/6407)
 
-| Color                                            | Hex       | RGB                  |
-|--------------------------------------------------|-----------|----------------------|
-| ![e4f2f7](https://via.placeholder.com/10/e4f2f7) | `#e4f2f7` | `rgb(228, 242, 247)` |
-| ![cd3a80](https://via.placeholder.com/10/cd3a80) | `#cd3a80` | `rgb(205, 58, 128)`  |
-| ![f583ca](https://via.placeholder.com/10/f583ca) | `#f583ca` | `rgb(245, 131, 202)` |
-| ![3a6dcf](https://via.placeholder.com/10/3a6dcf) | `#3a6dcf` | `rgb(58, 109, 207)`  |
-| ![5ab6f5](https://via.placeholder.com/10/5ab6f5) | `#5ab6f5` | `rgb(90, 182, 245)`  |
-| ![212630](https://via.placeholder.com/10/212630) | `#212630` | `rgb(33, 38, 48)`    |
+| Color                                                                                          | Hex       | RGB                  |
+|------------------------------------------------------------------------------------------------|-----------|----------------------|
+| <img src="https://via.placeholder.com/10/e4f2f7?text=+" width="10" height="10" alt="#e4f2f7"/> | `#e4f2f7` | `rgb(228, 242, 247)` |
+| <img src="https://via.placeholder.com/10/cd3a80?text=+" width="10" height="10" alt="#cd3a80"/> | `#cd3a80` | `rgb(205, 58, 128)`  |
+| <img src="https://via.placeholder.com/10/f583ca?text=+" width="10" height="10" alt="#f583ca"/> | `#f583ca` | `rgb(245, 131, 202)` |
+| <img src="https://via.placeholder.com/10/3a6dcf?text=+" width="10" height="10" alt="#3a6dcf"/> | `#3a6dcf` | `rgb(58, 109, 207)`  |
+| <img src="https://via.placeholder.com/10/5ab6f5?text=+" width="10" height="10" alt="#5ab6f5"/> | `#5ab6f5` | `rgb(90, 182, 245)`  |
+| <img src="https://via.placeholder.com/10/212630?text=+" width="10" height="10" alt="#212630"/> | `#212630` | `rgb(33, 38, 48)`    |
 
 ## Inspiration
 
