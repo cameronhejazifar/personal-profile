@@ -1,29 +1,44 @@
-# personal-profile
+<div align="center">
+    <img alt="Logo" src="https://raw.githubusercontent.com/cameronhejazifar/personal-profile/main/artwork/logo.svg" width="100" />
+</div>
+<h1 align="center">
+    cameron.hejazi-far.com
+</h1>
+<p align="center">
+    Built using <a href="https://vuejs.org/" target="_blank">Vue.js</a> and hosted with <a href="https://www.hostgator.com/" target="_blank">Host Gator</a>
+</p>
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+![demo](https://raw.githubusercontent.com/cameronhejazifar/personal-profile/main/artwork/demo.png)
 
 ## Project Setup
+
+1. Install dependencies
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+2. Running the project with hot-reloading for development
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+3. Compile and minify code for production
 
 ```sh
 npm run build
 ```
+
+## Color Palette
+
+[color-hex.com](https://www.color-hex.com/color-palette/6407)
+
+| Color                                                    | Hex       | RGB                  |
+|----------------------------------------------------------|-----------|----------------------|
+| ![#e4f2f7](https://via.placeholder.com/10/e4f2f7?text=+) | `#e4f2f7` | `rgb(228, 242, 247)` |
+| ![#cd3a80](https://via.placeholder.com/10/cd3a80?text=+) | `#cd3a80` | `rgb(205, 58, 128)`  |
+| ![#f583ca](https://via.placeholder.com/10/f583ca?text=+) | `#f583ca` | `rgb(245, 131, 202)` |
+| ![#3a6dcf](https://via.placeholder.com/10/3a6dcf?text=+) | `#3a6dcf` | `rgb(58, 109, 207)`  |
+| ![#5ab6f5](https://via.placeholder.com/10/5ab6f5?text=+) | `#5ab6f5` | `rgb(90, 182, 245)`  |
+| ![#212630](https://via.placeholder.com/10/212630?text=+) | `#212630` | `rgb(33, 38, 48)`    |
