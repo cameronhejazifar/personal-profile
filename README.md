@@ -42,3 +42,12 @@ npm run build
 | ![3a6dcf](https://via.placeholder.com/10/3a6dcf) | `#3a6dcf` | `rgb(58, 109, 207)`  |
 | ![5ab6f5](https://via.placeholder.com/10/5ab6f5) | `#5ab6f5` | `rgb(90, 182, 245)`  |
 | ![212630](https://via.placeholder.com/10/212630) | `#212630` | `rgb(33, 38, 48)`    |
+
+## Inspiration
+
+Here is a shout-out to some other profiles that I used for inspiration to build this website.
+
+- [Jacek Jeznach](https://jacekjeznach.com)
+- [Onyedika](https://www.onyedika.xyz)
+- [Brittany Chiang](https://brittanychiang.com)
+- [Tamal Sen](https://tamalsen.dev)
